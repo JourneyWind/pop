@@ -19,6 +19,9 @@
 
 - (NSArray *)recordedValuesForKey:(NSString *)key;
 
+/**
+ *  停止录像
+ */
 - (void)startRecording;
 
 - (void)stopRecording;
